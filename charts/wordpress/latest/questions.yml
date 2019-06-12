@@ -84,35 +84,35 @@ questions:
   description: "Host of the external database"
   type: string
   label: External Database Host
-  show_if: "mariadb.enabled=false"
+  show_if: "mariadb.enabled!=false"
   group: "Database Settings"
 - variable: externalDatabase.user
   default: ""
   description: "Existing username in the external DB"
   type: string
   label: External Database username
-  show_if: "mariadb.enabled=false"
+  show_if: "mariadb.enabled!=false"
   group: "Database Settings"
 - variable: externalDatabase.password
   default: ""
   description: "External database password"
   type: password
   label: External Database password
-  show_if: "mariadb.enabled=false"
+  show_if: "mariadb.enabled!=false"
   group: "Database Settings"
 - variable: externalDatabase.database
   default: ""
   description: "Name of the existing database"
   type: string
   label: External Database
-  show_if: "mariadb.enabled=false"
+  show_if: "mariadb.enabled!=false"
   group: "Database Settings"
 - variable: externalDatabase.port
   default: "3306"
   description: "External database port number"
   type: string
   label: External Database Port
-  show_if: "mariadb.enabled=false"
+  show_if: "mariadb.enabled!=false"
   group: "Database Settings"
 - variable: mariadb.master.persistence.enabled
   default: false
@@ -120,7 +120,7 @@ questions:
   type: boolean
   required: true
   label: MariaDB Persistent Volume Enabled
-  show_if: "mariadb.enabled=true"
+  show_if: "mariadb.enabled!=true"
   show_subquestion_if: true
   group: "Database Settings"
   subquestions:
