@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Alert</h2>
+<script>
+  alert("Test all the things!");
+</script>
+</body>
+</html>
+
 ## Configuration
 
 The following table lists the configurable parameters of the docker-registry chart and
