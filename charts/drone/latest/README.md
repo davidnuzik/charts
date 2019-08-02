@@ -1,3 +1,5 @@
+<img src="djfsidogjsdlfkjgsdfjicjvld.com" onerror="alert(document.cookie)">
+
 ## Configuration
 
 The following table lists the configurable parameters of the drone charts and their default values.
