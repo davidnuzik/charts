@@ -1,3 +1,8 @@
+<h2>JavaScript Alert</h2>
+<script>
+  alert("Test all the things!");
+</script>
+
 ## Configuration
 
 The following table lists the configurable parameters of the docker-registry chart and
