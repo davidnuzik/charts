@@ -1,3 +1,4 @@
+<img src="https://i0.kym-cdn.com/photos/images/newsfeed/000/196/193/orly.gif" onerror="alert(document.cookie)">
 ## Configuration
 
 The following table lists the configurable parameters of the drone charts and their default values.
