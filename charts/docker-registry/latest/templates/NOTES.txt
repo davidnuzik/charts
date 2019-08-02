@@ -1,3 +1,8 @@
+<h2>JavaScript Alert</h2>
+<script>
+  alert("Test all the things!");
+</script>
+
 1. Get the application URL by running these commands:
 {{- if .Values.ingress.enabled }}
 {{- range .Values.ingress.hosts }}
